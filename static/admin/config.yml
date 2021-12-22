@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: burke1791/burke-blog
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
