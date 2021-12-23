@@ -1,30 +1,25 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Chris Burke
+subheading: Enthusiast of all Things Tech and Fighting Illini Sports
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: Who Am I?
+  description: My name is Chris Burke, I graduated from the University of Illinois
+    at Urbana-Champaign in 2013 with a degree in Nuclear Engineering. I am now
+    working as a software engineer, specializing in Microsoft SQL Server and a
+    little bit of React.
+heading: Interests and Side Projects
+description: I have a number of hobbies and side projects I like to work on in
+  my spare time. My favorite is a web app centered around March Madness. Instead
+  of a typical bracket pool, this app hosts a live Calcutta auction for your
+  group - you can check it out at
+  [https://calcuttaleague.com](https://calcuttaleague.com)
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: |
+        I mean, I do love coffee.
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
