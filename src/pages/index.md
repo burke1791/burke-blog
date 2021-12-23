@@ -13,7 +13,8 @@ heading: Interests and Side Projects
 description: I have a number of hobbies and side projects I like to work on in
   my spare time. My favorite is a web app centered around March Madness. Instead
   of a typical bracket pool, this app hosts a live Calcutta auction for your
-  group - you can check it out at https://calcuttaleague.com
+  group - you can check it out at
+  [https://calcuttaleague.com](https://calcuttaleague.com)
 intro:
   blurbs:
     - image: /img/coffee.png
