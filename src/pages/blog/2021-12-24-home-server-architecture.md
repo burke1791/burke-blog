@@ -11,4 +11,6 @@ featuredimage: /img/home-server-diagram.png
 tags:
   - HomeServer
 ---
+![Home Server Architecture](/img/home-server-diagram.png)
+
 Using my two spare laptops and a Raspberry Pi 4, I set up my servers according to the diagram above.
