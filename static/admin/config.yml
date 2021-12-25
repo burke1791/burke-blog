@@ -82,8 +82,8 @@ collections:
                 ],
             }
       - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+        label: "Projects"
+        name: "projects"
         fields:
           - {
               label: "Template Key",
