@@ -19,12 +19,12 @@ intro:
     - image: /img/basketball_icon.jpeg
       text: |
         March Madness Calcutta
-    - image: /img/coffee-gear.png
+    - image: /img/home-server-dark.png
       text: |
         Home Server
-    - image: /img/tutorials.png
+    - image: /img/budget-dark.png
       text: Budget App
-    - image: /img/meeting-space.png
+    - image: /img/raspberrypi.png
       text: |
         Raspberry Pi Miscellany
   heading: What we offer
