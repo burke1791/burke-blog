@@ -16,7 +16,7 @@ description: I have a number of hobbies and side projects I like to work on in
   your friends.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/basketball_court.png
       text: |
         March Madness Calcutta
     - image: /img/coffee-gear.png
