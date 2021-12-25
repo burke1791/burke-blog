@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-about-page-js",
     "path": "/projects/",
-    "result": {"data":{"markdownRemark":{"html":"<h3>March Madness Calcutta</h3>\n<h3>Personal Finance App</h3>\n<h3>Home Server</h3>\n<h3>Miscellaneous Raspberry Pi Projects</h3>","frontmatter":{"title":"My Projects"}}},"pageContext":{"id":"3780a2bb-c27b-54eb-a721-4e76abc1d772"}},
+    "result": {"data":{"markdownRemark":{"html":"<h3>March Madness Calcutta</h3>\n<h3>Personal Finance App</h3>\n<h3>Home Server</h3>\n<h3>Miscellaneous Raspberry Pi Projects</h3>","frontmatter":{"title":"My Projects"}}},"pageContext":{"id":"9fdfc72a-848f-5ec9-8deb-7497f676e525"}},
     "staticQueryHashes": ["4080856488"]}
