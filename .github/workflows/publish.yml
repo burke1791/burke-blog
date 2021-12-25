@@ -21,7 +21,8 @@ jobs:
         run: |
           git config user.name "Github Actions Bot"
           git config user.email "<>"
-          git remote add origin https://$DEPLOY_TOKEN@github.com/burke1791/burke-blog.git
+          git remote set-url origin https://$DEPLOY_TOKEN@github.com/burke1791/burke-blog.git
+          git remote -v
       - name: publish
         run: CI=false npm run deploy
 
