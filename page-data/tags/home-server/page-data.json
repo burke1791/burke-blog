@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tags/home-server/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Burkcules Blog"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/blog/2021-12-24-home-server-architecture/"},"frontmatter":{"title":"Home Server Architecture"}}}]}},"pageContext":{"tag":"HomeServer"}},
+    "staticQueryHashes": ["4080856488"]}

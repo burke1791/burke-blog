@@ -1,0 +1,162 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/styles.a83e2ef8e9d03f6202a2.css
+  Cache-Control: public, max-age=31536000, immutable
+/commons-d319ef7f55164f78304f.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-index-page-js-2d39bbf6cadf6f1cac39.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-about-page-js-8098cd097ce21ec725f0.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-blog-post-js-c1eacdabb4d946943bbb.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-tags-js-4796019a8cea5c8d73e3.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-c38543e46321d5f0ddbb.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-examples-js-a10a226192316c7247a3.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-file-upload-js-aeb883914dbffd7f8026.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-index-js-7c891a4d42c738f826cb.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-contact-thanks-js-5f2514f7991d57baecad.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-index-js-83582a5efb0c8e35df5a.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-tags-index-js-3927e2509a47283dc27e.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-46a08d8d4ba5064d1109.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-201b2a2a27edd52ec0ff.js
+  Cache-Control: public, max-age=31536000, immutable
+/532a2f07-f97befafd74bf8dd0311.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-ddb7ec55cba762ca52e9.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/burke-blog/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-templates-index-page-js-2d39bbf6cadf6f1cac39.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/projects/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-templates-about-page-js-8098cd097ce21ec725f0.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/projects/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/blog/2021-12-24-home-server-architecture/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-templates-blog-post-js-c1eacdabb4d946943bbb.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/blog/2021-12-24-home-server-architecture/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/blog/dummy/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-templates-about-page-js-8098cd097ce21ec725f0.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/blog/dummy/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/tags/home-server/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-templates-tags-js-4796019a8cea5c8d73e3.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/tags/home-server/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/404/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-404-js-c38543e46321d5f0ddbb.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/404.html
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-404-js-c38543e46321d5f0ddbb.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/contact/examples/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-contact-examples-js-a10a226192316c7247a3.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/contact/examples/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/contact/file-upload/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-contact-file-upload-js-aeb883914dbffd7f8026.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/contact/file-upload/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/contact/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-contact-index-js-7c891a4d42c738f826cb.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/contact/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/contact/thanks/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-contact-thanks-js-5f2514f7991d57baecad.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/contact/thanks/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/blog/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-blog-index-js-83582a5efb0c8e35df5a.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
+/burke-blog/tags/
+  Link: </burke-blog/webpack-runtime-46a08d8d4ba5064d1109.js>; rel=preload; as=script
+  Link: </burke-blog/framework-201b2a2a27edd52ec0ff.js>; rel=preload; as=script
+  Link: </burke-blog/532a2f07-f97befafd74bf8dd0311.js>; rel=preload; as=script
+  Link: </burke-blog/app-ddb7ec55cba762ca52e9.js>; rel=preload; as=script
+  Link: </burke-blog/commons-d319ef7f55164f78304f.js>; rel=preload; as=script
+  Link: </burke-blog/component---src-pages-tags-index-js-3927e2509a47283dc27e.js>; rel=preload; as=script
+  Link: </burke-blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </burke-blog/page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin

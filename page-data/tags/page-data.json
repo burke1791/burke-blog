@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-tags-index-js",
+    "path": "/tags/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Burkcules Blog"}},"allMarkdownRemark":{"group":[{"fieldValue":"HomeServer","totalCount":1}]}},"pageContext":{}},
+    "staticQueryHashes": ["4080856488"]}
