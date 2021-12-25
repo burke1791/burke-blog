@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Chris Burke
 subheading: Enthusiast of all Things Tech and Fighting Illini Sports
-image: /img/home-jumbotron.jpg
+image: /img/basketball_court.png
 mainpitch:
   title: Who Am I?
   description: My name is Chris Burke, I graduated from the University of Illinois
