@@ -15,5 +15,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-      - run: npm install
-      - run: CI=false npm run deploy
+      - name: install dependencies
+        run: npm install
+      - name: configure git
+        run: |
+          git config user.name "Github Actions Bot"
+          git config user.email "<>"
+      - name: publish
+        run: CI=false npm run deploy
