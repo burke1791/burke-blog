@@ -21,5 +21,9 @@ jobs:
         run: |
           git config user.name "Github Actions Bot"
           git config user.email "<>"
+          git remote add origin https://$DEPLOY_TOKEN@github.com/burke1791/burke-blog.git
       - name: publish
         run: CI=false npm run deploy
+
+env:
+  DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
