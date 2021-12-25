@@ -4,6 +4,7 @@ module.exports = {
     description:
       "My personal blog",
   },
+  pathPrefix: '/burke-blog',
   plugins: [
     "gatsby-plugin-react-helmet",
     {
@@ -13,6 +14,14 @@ module.exports = {
           indentedSyntax: true,
         },
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /img\/*\.svg$/
+        }
+      }
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
