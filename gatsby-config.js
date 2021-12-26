@@ -46,7 +46,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
-    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-sharp",
+      options: {
+        icon: `${__dirname}/src/img/favicon.svg`
+      }
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
