@@ -11,7 +11,7 @@ featuredimage: /img/home-server-diagram.png
 tags:
   - HomeServer
 ---
-![Home Server Architecture](./static/img/home-server-diagram.png)
+![Home Server Architecture](/static/img/home-server-diagram.png)
 
 Using my two spare laptops and a Raspberry Pi 4, I set up my local network according to the diagram above. My "Stage" server is running on a Macbook Pro 2012 and the "Production" server is an Acer Aspire laptop I purchased for college back in 2009 or 2010. I am also using the Raspberry Pi as a DNS server so I can use human readable domain names on my local network instead of local IP addresses.
 
