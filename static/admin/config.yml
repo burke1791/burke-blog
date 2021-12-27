@@ -2,6 +2,7 @@ backend:
   name: github
   branch: master
   repo: burke1791/burke-blog
+  base_url: https://burke1791.github.io/burke-blog
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
