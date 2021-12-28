@@ -21,7 +21,7 @@ Installation is very simple and straightforward so I won't go into it here, but 
 
 The issue I encountered after installation was the wifi cards not working. Thankfully both of these laptops are old enough to have ethernet ports built in so I could easily access the internet by plugging into the router.
 
-Both of these laptops have Broadcom wireless cards, and I had to manually install a couple extra packages in order to get them to work. Luckily this problem has plagued many people before me because there is an _outstanding_ askubuntu [answer](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers/) about this very issue.
+Both of these laptops have Broadcom wireless cards, and I had to manually install a couple extra packages in order to get them to work. Luckily this problem has plagued many people before me because there is an *outstanding* askubuntu [answer](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers/) about this very issue.
 
 Once I got the wireless cards working, it was smooth sailing.
 
@@ -35,3 +35,4 @@ Using `htop`, I noticed the `ssis-telemetry` service was the primary resource ho
 
 ## Installing Nginx
 
+With Nginx I am able to run multiple services on the same machine and proxy each request to the correct service based on the domain name.
