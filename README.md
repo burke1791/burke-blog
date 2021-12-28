@@ -1,5 +1,5 @@
 # Burke Blog
 
-[![Publish](https://github.com/burke1791/burke-blog/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/burke1791/burke-blog/actions/workflows/pages/pages-build-deployment)
+[![Deploy](https://github.com/burke1791/burke-blog/actions/workflows/deploy.yml/badge.svg)](https://github.com/burke1791/burke-blog/actions/workflows/deploy.yml)
 
 Just playing around with a blogging website.

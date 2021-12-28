@@ -2,8 +2,8 @@ backend:
   name: github
   branch: master
   repo: burke1791/burke-blog
-  base_url: https://qx9zm191hi.execute-api.us-east-1.amazonaws.com/prod
-  auth_endpoint: /auth
+  base_url: https://qx9zm191hi.execute-api.us-east-1.amazonaws.com
+  auth_endpoint: /prod/auth
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
