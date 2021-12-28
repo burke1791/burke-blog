@@ -2,6 +2,8 @@ backend:
   name: github
   branch: master
   repo: burke1791/burke-blog
+  base_url: https://qx9zm191hi.execute-api.us-east-1.amazonaws.com/prod
+  auth_endpoint: /auth
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -9,6 +11,7 @@ backend:
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
 
+site_id: burkcules.com
 media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
