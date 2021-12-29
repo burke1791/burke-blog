@@ -2,10 +2,10 @@
 templateKey: blog-post
 title: Home Server Architecture
 date: 2021-12-24T15:07:44.711Z
-description: I have a couple old laptops laying around the house and thought now
-  might be a good time to set up some home servers. As of now, the plan is to
-  run a couple database and web servers along with a local DNS server to get
-  some practice managing the network side of a tech stack.
+description: "I have a couple old laptops laying around the house and thought
+  now might be a good time to set up some home servers. Right now the plan is
+  simple: two old laptops each running Ubuntu server behind a local DNS server
+  running on a Raspberry Pi."
 featuredpost: true
 featuredimage: /img/home-server-diagram.png
 tags:
@@ -13,26 +13,21 @@ tags:
 ---
 ![Home Server Architecture](../../../static/img/home-server-diagram.png)
 
-Using my two spare laptops and a Raspberry Pi 4, I set up my local network according to the diagram above. My "Stage" server is running on a Macbook Pro 2012 and the "Production" server is an Acer Aspire laptop I purchased for college back in 2009 or 2010. I am also using the Raspberry Pi as a DNS server so I can use human readable domain names on my local network instead of local IP addresses.
+## Overview
 
-## Installing Ubuntu Server
+Lately I've wanted to get some hands-on experience managing the network side of a full stack application and figured a a home server setup could be an easy, low stakes way to do it. Using my two old laptops, I'll have both a staging and production environment, as well as a Raspberry Pi 4 running Pi Hole for my local DNS server. The "application" I plan to run on my network is a personal budgeting web app I started working on last year. It was always intended for use by me alone, so this setup will be perfect.
 
-Installation is very simple and straightforward so I won't go into it here, but you can visit the Ubuntu website [here](https://ubuntu.com/server/docs/installation) for detailed instructions.
+As shown in the diagram above, both the staging and production environments will be running MS SQL Server and a Web Server (Nginx). However, the stage server will be pulling double duty by also hosting a local source control server (Gitea) and a CI/CD server (Drone). Both of these will run in separate docker containers.
 
-The issue I encountered after installation was the wifi cards not working. Thankfully both of these laptops are old enough to have ethernet ports built in so I could easily access the internet by plugging into the router.
+**Why do I need to host my own source control and CI/CD servers?** Since I'm actively developing the budget app, I don't want to deal with manually deploying my code to two different environments. Moreover, my ISP regularly changes my public IP address so whatever cloud CI/CD solution I come up with will have no way to reliably deploy the code to my local environments.
 
-Both of these laptops have Broadcom wireless cards, and I had to manually install a couple extra packages in order to get them to work. Luckily this problem has plagued many people before me because there is an *outstanding* askubuntu [answer](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers/) about this very issue.
+In this post, I won't go into the installation steps for Ubuntu, SQL Server, etc., but rather I'll focus on the steps I took to get all of these services working together.
 
-Once I got the wireless cards working, it was smooth sailing.
+## DNS Server
 
-## Installing Microsoft SQL Server
+Pi Hole makes setting up a local DNS server very easy. In the admin panel, you just need to add a domain name to the local 
 
-Again, I'm going to link an external page because Microsoft put together some very easy instructions for installing SQL Server on Linux [here](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15).
+## Configuring Gitea
 
-For my projects, I installed SQL Server Developer Edition, as well as both SSIS and SQL Agent - I use both in my personal finance app. However, SSIS ended up causing quite a headache because I noticed my machine was running at 80C while idling - this is absurdly high.
+Despite using a local source control server, I am still hosting all of my code on Github - Gitea is simply configured to mirror my repos on Github. The steps to do this can be found in the Gitea [docs](https://docs.gitea.io/en-us/repo-mirror/).
 
-Using `htop`, I noticed the `ssis-telemetry` service was the primary resource hog. The telemetry service is its own service separate from SSIS itself, so I just stopped and disabled it. After that, the machine was idling at a much more comfortable 40C.
-
-## Installing Nginx
-
-With Nginx I am able to run multiple services on the same machine and proxy each request to the correct service based on the domain name.
