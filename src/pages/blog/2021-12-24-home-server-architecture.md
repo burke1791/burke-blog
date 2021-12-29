@@ -33,4 +33,27 @@ As you can probably figure out from the photo above, my stage server is running 
 
 ## Nginx Proxy
 
-The configuration I use on my stage server is 
+The configuration I use on my stage server may not be the best way to do it, but so far it works quite well. In `nginx.conf` I added a server config for each of the separate domains, e.g.
+
+```
+# Omitted for brevity
+
+http {
+    # Omitted for brevity
+
+    server {
+        listen 80; # all traffic comes in to port 80 (I'm not using https on my local network)
+        server_name gitea.burkcules.burke;
+
+        location / {
+            proxy_pass http://localhost:3000;
+        }
+    }
+
+    # Additional server confs as necessary
+}
+```
+
+With all necessary server confs included in `nginx.conf`, the traffic map will follow this diagram:
+
+![nginx-proxy](../../../static/img/nginx-proxy.png)
