@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Burkcules Blog",
-    description:
-      "My personal blog",
+    description: "My personal blog",
   },
   pathPrefix: '/burke-blog',
   plugins: [
@@ -46,12 +45,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
-    {
-      resolve: "gatsby-plugin-sharp",
-      options: {
-        icon: `${__dirname}/src/img/favicon.svg`
-      }
-    },
+    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
