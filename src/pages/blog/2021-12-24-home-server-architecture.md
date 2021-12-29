@@ -25,9 +25,12 @@ In this post, I won't go into the installation steps for Ubuntu, SQL Server, etc
 
 ## DNS Server
 
-Pi Hole makes setting up a local DNS server very easy. In the admin panel, you just need to add a domain name to the local 
+Pi Hole makes setting up a local DNS server very easy. In the admin panel, you just need to add a domain name to the list of local DNS domains:
 
-## Configuring Gitea
+![Local DNS](../../../static/img/pi-hole-dns.png)
 
-Despite using a local source control server, I am still hosting all of my code on Github - Gitea is simply configured to mirror my repos on Github. The steps to do this can be found in the Gitea [docs](https://docs.gitea.io/en-us/repo-mirror/).
+As you can probably figure out from the photo above, my stage server is running on 192.168.1.12 and production on 192.168.1.20. You'll notice there are multiple domains pointing to the stage server. All traffic for each of those domains will be traveling through port 80 to the same IP address, so we'll need to use Nginx's proxy functionality to route traffic to the right place.
 
+## Nginx Proxy
+
+The configuration I use on my stage server is 
