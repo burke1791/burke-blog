@@ -43,4 +43,4 @@ jobs:
     steps:
       - name: invalidate cache
         run: |
-          curl -H 'x-api-key: $CLOUDFRONT_API_KEY' -X POST https://qx9zm191hi.execute-api.us-east-1.amazonaws.com/prod/invalidate -v
+          curl -H 'x-api-key: ${{ secrets.CLOUDFRONT_API_KEY }}' -X POST https://qx9zm191hi.execute-api.us-east-1.amazonaws.com/prod/invalidate -v
