@@ -5,6 +5,15 @@ module.exports = {
   },
   pathPrefix: '/burke-blog',
   plugins: [
+    {
+      resolve: 'gatsby-plugin-gdpr-cookies',
+      options: {
+        googleAnalytics: {
+          trackingId: 'G-116ZHXPFFD',
+          cookieName: 'gatsby-gdpr-google-analytics'
+        }
+      }
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",

@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import CookieConsent from "react-cookie-consent";
+import { initializeAndTrack } from "gatsby-plugin-gdpr-cookies";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -51,6 +53,18 @@ const TemplateWrapper = ({ children }) => {
       <Navbar />
       <div>{children}</div>
       <Footer />
+      <CookieConsent
+        location='bottom'
+        buttonText='Accept'
+        enableDeclineButton={true}
+        declineButtonText='Decline'
+        cookieName='gatsby-gdpr-google-analytics'
+        onAccept={(acceptedByScrolling) => {
+          initializeAndTrack(window.location);
+        }}
+      >
+        This site uses cookies because I'm curious how tracking works
+      </CookieConsent>
     </div>
   );
 };
