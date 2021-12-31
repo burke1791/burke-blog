@@ -10,7 +10,8 @@ module.exports = {
       options: {
         googleAnalytics: {
           trackingId: 'G-116ZHXPFFD',
-          cookieName: 'gatsby-gdpr-google-analytics'
+          cookieName: 'gatsby-gdpr-google-analytics',
+          anonymize: true
         }
       }
     },
