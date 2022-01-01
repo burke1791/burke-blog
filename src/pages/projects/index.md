@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-path: /about
+path: /projects
 title: My Projects
 ---
 ### March Madness Calcutta
