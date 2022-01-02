@@ -17,6 +17,13 @@ The back end consists of API Gateway calling a bunch of lambda functions which c
 
 ### Personal Finance App
 
+Repos: [Front End](https://github.com/burke1791/budget-dashboard) | [Back End](https://github.com/burke1791/budget-api)
+
+This app is heavily inspired by [You Need A Budget](https://www.youneedabudget.com/), but because I didn't want to pay for it and I needed something to run on my home server I decided to make my own.
+
+This app does not have a live site because I only intend to run it on my local server setup. I MIGHT create a dummy site and put it on the public internet, but currently I don't see any benefit to doing so.
+
+The front end is built with React, and the back end is a .NET API that connects to a MS SQL Server instance running on my local network.
 
 ### Home Server
 
