@@ -11,4 +11,4 @@ description: The current auction service architecture is built with websockets
 featuredpost: true
 featuredimage: /img/auction-service-current.png
 ---
-![Current Architecture](
+![Current Architecture](../../../static/img/Auction Service - Current.png)
