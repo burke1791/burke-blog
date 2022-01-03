@@ -9,6 +9,6 @@ description: The current auction service architecture is built with websockets
   access. The only way to give them internet access while inside a VPC is by
   using a NAT Gateway and they are quite expensive.
 featuredpost: true
-featuredimage: /img/basketball_icon.jpeg
+featuredimage: /img/auction-service-current.png
 ---
-Placeholder
+![Current Architecture](
