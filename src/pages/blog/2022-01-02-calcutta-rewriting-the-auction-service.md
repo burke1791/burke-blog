@@ -33,4 +33,4 @@ The architecture in this diagram is what I think I'll use. I will still use RDS 
 
 I hinted at this above, but never explicitly stated it: in order for a lambda to connect to RDS, it must live inside the same VPC. And in order for a lambda to broadcast websocket messages, it needs internet access. VPC lambdas can get internet access through a NAT gateway, but lambdas outside a VPC have internet by default.
 
-So in order for the workflow to function properly, any time we need to read or write data to RDS, we must call a regular lambda (outside a VPC) then have it invoke another lambda inside our VPC to perform the RDS operations.
+So in order for the workflow to function properly, any time we need to read or write data to RDS, we must call a regular lambda (outside a VPC) then have it invoke another lambda inside our VPC to perform the RDS operations. THEN the initial lambda will update DynamoDB if necessary.
