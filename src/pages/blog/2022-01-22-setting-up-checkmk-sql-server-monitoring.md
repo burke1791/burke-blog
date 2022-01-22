@@ -12,3 +12,7 @@ tags:
   - HomeServer
 ---
 In this post I provide a surface-level description of how I got CheckMk running on my network.
+
+CheckMk uses Apache, but I already have Nginx running on this machine. Update apache to listen on port 8080 (`/etc/apache2/sites-enabled/000-default.conf`). Then configure Nginx to reverse proxy traffic to apache (`/etc/nginx/nginx.conf`)
+
+Add the new domain `monitor.burkcules.burke` to my local DNS server (Pi-Hole).
