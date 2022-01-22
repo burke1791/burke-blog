@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Setting Up CheckMk SQL Server Monitoring
+title: Setting Up CheckMk Server Monitoring
 date: 2022-01-22T12:50:08.567Z
 description: I don't really need a monitoring solution for my home network SQL
   Servers, but I thought it might be a fun exercise to set one up and see what
