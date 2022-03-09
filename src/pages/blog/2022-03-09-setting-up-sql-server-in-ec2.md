@@ -20,5 +20,7 @@ tags:
   * Set SQL Server Browser to automatic startup
   * Enable Mixed Mode Auth
   * After the server is running enable TCP/IP access and restart the server
+
+    * In the IPAll section, make sure "TCP Dynamic Ports" is blank and "TCP Port" is set to 1433
 * Open TCP and UDP ports for SQL Server (1433, 1434)
 * Run `aws configure --profile ...` using the programmatic access keys for the S3 user
