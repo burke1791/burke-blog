@@ -7,8 +7,8 @@ mainpitch:
   title: Who Am I?
   description: My name is Chris Burke, I graduated from the University of Illinois
     at Urbana-Champaign in 2013 with a degree in Nuclear Engineering. I am now
-    working as a software engineer, specializing in Microsoft SQL Server and a
-    little bit of React.
+    working as a software engineer, specializing in Relational Database systems
+    and a little bit of React.
 heading: Interests and Side Projects
 description: I have a number of hobbies and side projects I like to work on in
   my spare time. My favorite is a web app centered around March Madness. Instead
