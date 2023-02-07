@@ -31,11 +31,11 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Featured Post", name: "featuredpost", widget: "boolean", required: false }
+      - { label: "Featured Image", name: "featuredimage", widget: image, required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
 
   - name: "pages"
     label: "Pages"
